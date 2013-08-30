@@ -8,11 +8,11 @@ gem 'social_stream'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group :production do
-  gem 'pg'
+  gem 'mysql2'
 end
 
 group :development, :test do
-  gem 'sqlite3'
+  gem 'mysql2'
 end
 
 
